@@ -1,3 +1,75 @@
-h1 {
-	color: red;
+@font-face {
+  font-family: OpenSans-Regular; 
+  src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.woff); 
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Regular; 
+  src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.woff2); 
+  font-weight: normal;
+}
+
+  @font-face {
+  font-family: OpenSans-Bold; 
+  src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.woff); 
+  font-weight: bold;
+}
+ 
+ @font-face {
+  font-family: OpenSans-Bold; 
+  src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.woff2);
+  font-weight: bold;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 1920px)  {
+  
+.header {
+  background-image: url("images/img/football_767.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1d2246;
+  opacity: 0.8;
+}
+
+  .container {
+   width: 1554px;
+   padding-left: 12px;
+   padding-right: 12px;
+   margin-left: auto;
+   margin-right: auto;
+}
+  
+  .logo_surface {
+  width: 191px;
+  height: 53px;
+  z-index: 1;
+  margin-top: 44px; 
+ 
+ }
+    
 }
