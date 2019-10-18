@@ -1246,6 +1246,7 @@ body {
 		}
 
 		.slogan-title {
+      display: block;
 			margin-left: 12px;
       font-size: 90px;
       color: #ffffff;
@@ -1256,6 +1257,7 @@ body {
 		}
 
 		.name-slogan {
+       display: block;
 			margin-left: 460px;
       font-size: 90px;
       color: #ffffff;
@@ -1599,6 +1601,7 @@ body {
 		.be-active {
 			display: flex;
 			flex-wrap: nowrap;
+      
 		}
 
 		.be-active:nth-child(2) {
@@ -1609,8 +1612,8 @@ body {
 		.active-block {
 			display: block;
 			box-sizing: border-box;
-			width: 160px;
-			height: 160px;
+			width: 168px;
+			height: 150px;
 			position: relative;
 			z-index: 2;
 
@@ -1647,10 +1650,11 @@ body {
 			height: 7px;
 			background-color: #8f7bc8;
 			border-radius: 25%;
-
+	
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 10px;
+      z-index: ;
 		}
 
 		.active-content {
@@ -1776,4 +1780,14 @@ body {
 	  	margin: auto;
 	  }
 	}
+
+
+	
+		
+
+
+		
+
+		
+		
 
