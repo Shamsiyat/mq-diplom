@@ -6,7 +6,9 @@
 	 img {
 		display: block;
 		box-sizing: border-box;
-	}
+    min-hight: 121px;
+    min-width: 160px;
+}
 	
 	.body {
 		min-width: 320px;
@@ -15,6 +17,24 @@
 	.container {
 		margin: 0 auto;
 	}
+
+.athlets {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.players-head {
+  max-width: 618px;
+}
+
+.players-heading {
+  display: block;
+  max-width: 560px;
+}
+
+.text {
+   max-width: 776px;
+}
 	
 	 @media(max-width: 640px) {
 		.header {
@@ -210,6 +230,7 @@
 			justify-content: flex-start;
 			padding-top: 80px;
 			padding-bottom: 55px;
+      margin-top: 290px;
 		}	
 	
 		.athlets-number {
@@ -362,6 +383,7 @@
 			justify-content: flex-start;
 			padding-top: 80px;
 			padding-bottom: 55px;
+      margin-top: 250px;
 		}
 	
 		.players-number {
@@ -391,7 +413,6 @@
 			font-size: 23px;
 			text-transform: uppercase;
 			color: #c1c1c1;
-	
 			margin-bottom: 10px;
 		}
 	
@@ -513,7 +534,6 @@
 			font-size: 15px;
 			color: #000000;
 	
-			
 			margin-left: 20px;
 			margin-right: 25px;
 		}
@@ -699,10 +719,10 @@
 			text-decoration: none;
 		}
 	
-		.store-content{
+		.store-content {
 			display: flex;
 			flex-wrap: nowrap;
-			
+			max-width: 657px;
 			margin: auto;
 			justify-content: center;
 		}
@@ -1219,10 +1239,11 @@
 				color: #2466d3;
 			}
 	
+       
 			h1 {
 				display: block;
 				position: relative;
-				z-index: 3;
+ 				z-index: 3;
 				margin: 0 auto;
 				
 				font-family: OpenSans Bold,Arial,sans-serif;
@@ -1234,19 +1255,21 @@
 			.slogan-title {
 				display: flex;
 				flex-wrap: wrap;
-				margin-left: 180px;
+				margin-left: 5%;
 			}
 	
 			.name-slogan {
 				display: flex;
-				margin-left: 23%;
+        margin-left: 28%;
+       
+     		
 			}
 	
 			.link-store {
 				text-decoration: none;
 			}
 	
-			.store-content{
+			.store-content {
 				display: flex;
 				flex-wrap: nowrap;
 				justify-content: center;
@@ -1343,15 +1366,15 @@
 				flex-wrap: wrap;
 				padding-top: 65px;
 				padding-bottom: 65px;
-	
-			}
+        
+      			}
 	
 			.athlets-number {
 				font-family: OpenSans Bold,Arial,sans-serif;
 				font-size: 18px;
 				color: #000000;
 	
-				margin-left: 60%;
+				
 			}
 	
 			.athlets-number::after {
@@ -1361,8 +1384,7 @@
 				height: 5px;
 				background-color: #5e42b0;
 				border-radius: 25%;
-	
-				margin-left: auto;
+		
 				margin-right: auto;
 				margin-top: 7px;
 				}
@@ -1372,7 +1394,7 @@
 				font-size: 36px;
 				text-transform: uppercase;
 				color: #c1c1c1;
-				margin-left: 10px;
+				margin-left: 60%;
 			}
 	
 			.athlets-text {
@@ -1401,12 +1423,13 @@
 				padding-bottom: 65px;
 			}
 	
+    
+    
 			.growth-athlets {
 				font-family: OpenSans Bold,Arial,sans-serif;
 				font-size: 18px;
 				color: #000000;
-	
-				margin-left: 60%;
+				
 			}
 	
 			.growth-athlets::after {
@@ -1417,8 +1440,8 @@
 				background-color: #ffffff;
 				border-radius: 25%;
 	
-				margin-left: auto;
-				margin-right: auto;
+			
+			
 				margin-top: 7px;
 				margin-bottom: 35px;
 			}
@@ -1428,7 +1451,8 @@
 				font-size: 36px;
 				text-transform: uppercase;
 				color: #c1c1c1;
-				margin-left: 10px;
+				margin-left: 60%;
+        
 			}
 	
 			.growth-text {
@@ -1646,7 +1670,6 @@
 				font-family: OpenSans Bold,Arial,sans-serif;
 				font-size: 80px;
 				text-transform: uppercase;
-	
 				color: #e7e7e7;
 			}
 	
@@ -1765,6 +1788,16 @@
 			
 	
 	
+	
+	 
+	 
+	
+	
+	
+
+
+
+
 	
 	 
 	 
