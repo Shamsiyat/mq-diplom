@@ -6,7 +6,7 @@
 	 img {
 		display: block;
 		box-sizing: border-box;
-    min-hight: 121px;
+    min-height: 121px;
     min-width: 160px;
 }
 	
@@ -169,7 +169,7 @@
 			flex-wrap: wrap;
 			flex-direction: column;
 			justify-content: center;
-			align-items: left;
+			
 			
 	
 			font-family: OpenSans Regular,Arial,sans-serif;
@@ -765,7 +765,7 @@
 			flex-wrap: wrap;
 			flex-direction: column;
 			justify-content: center;
-			align-items: left;
+		
 			
 			font-family: OpenSans Light,Arial,sans-serif;
 			font-size: 14px;
@@ -1366,28 +1366,28 @@
 				flex-wrap: wrap;
 				padding-top: 65px;
 				padding-bottom: 65px;
-        
-      			}
+    }
 	
 			.athlets-number {
-				font-family: OpenSans Bold,Arial,sans-serif;
-				font-size: 18px;
-				color: #000000;
-	
-				
-			}
-	
-			.athlets-number::after {
-				content: "";
-				display: block;
-				width: 18px;
-				height: 5px;
-				background-color: #5e42b0;
-				border-radius: 25%;
-		
-				margin-right: auto;
-				margin-top: 7px;
-				}
+    position: relative;
+    font-family: OpenSans Bold,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    vertical-align: super;
+}
+    
+.athlets-number::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 19px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 25%;
+    margin-right: auto;
+    margin-top: 5px;
+    }
 	
 			.athlets-heading {
 				font-family: OpenSans Bold,Arial,sans-serif;
@@ -1421,27 +1421,30 @@
 				background-color: #5e42b0;
 				padding-top: 65px;
 				padding-bottom: 65px;
+        
 			}
-	
-    
-    
+	      
 			.growth-athlets {
+        position: relative;
 				font-family: OpenSans Bold,Arial,sans-serif;
 				font-size: 18px;
-				color: #000000;
+       	color: #000000;
+        vertical-align: super;
+        
 				
 			}
 	
 			.growth-athlets::after {
 				content: "";
-				display: block;
+				position: absolute;
+        left: 0;
+        bottom: -45px;
+          
 				width: 18px;
 				height: 5px;
 				background-color: #ffffff;
 				border-radius: 25%;
-	
-			
-			
+					
 				margin-top: 7px;
 				margin-bottom: 35px;
 			}
@@ -1741,7 +1744,7 @@
 				flex-wrap: wrap;
 				flex-direction: column;
 				margin-left: 30px;
-				align-items: left;
+				
 			}
 	
 			.footer-text {
@@ -1798,10 +1801,6 @@
 
 
 
-	
-	 
-	 
-	
 	
 	
 
