@@ -18,23 +18,6 @@
 		margin: 0 auto;
 	}
 
-.athlets {
-  padding-left: 15px;
-  padding-right: 5px;
-}
-
-.players-head {
-  max-width: 618px;
-}
-
-.players-heading {
-  display: block;
-  max-width: 560px;
-}
-
-.text {
-   max-width: 776px;
-}
 	
 	 @media(max-width: 640px) {
 		.header {
@@ -98,19 +81,19 @@
 	
 			font-size: 20px;
 			text-transform: uppercase;
-			font-family: OpenSans Bold,sans-serif,Arial;
+			font-family: "OpenSans Bold", sans-serif, Arial;
 		}
 	
 		.slogan-title {
 			text-align: left;
 			display: block;
-			
-			margin-top: 68px;
+		  margin-top: 68px;
 			margin-bottom: 15px;
-			margin-left: auto;
-			margin-right: auto;
+      
+			margin-left: 20px;
+			margin-right: 20px;
 	
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold",Arial,sans-serif;
 			font-size: 20px;
 		}
 	
@@ -126,13 +109,21 @@
 			text-decoration: none;
 		}
 	
+     .store-content {
+		  margin-left: 20px;
+      margin-right: 20px;
+      max-width: 280px;
+		}
+     
+     
 		.link-store {
 			display: flex;
 			box-sizing: border-box;
 			width: 280px;
+      
 			position: relative;
 			z-index: 3;
-			margin-left: 20px;
+		
 	
 			background-size: 35px 280px;
 			background-color: #5e42b0;
@@ -143,9 +134,7 @@
 			padding-left: 75px;
 		}
 	
-		.store-content {
-			margin: auto;
-		}
+		
 		
 		.link-store:nth-child(1) {
 			margin-bottom: 15px;
@@ -169,34 +158,40 @@
 			flex-wrap: wrap;
 			flex-direction: column;
 			justify-content: center;
-			
-			
-	
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 8px;
 			text-transform: uppercase;
+      
+     
 		}
 	
 		.store {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family:  "OpenSans Bold", Arial, sans-serif;
 			font-size: 8px;
 			text-transform: uppercase;
 		}
 	
 		.main-content {
 			width: 100%;
-			
+			margin-left: 20px;
+			margin-right: 20px;
+      
+      paddind-left: 5px;
+      padding-right: 5px;
+      
 			padding-top: 25px;
 			padding-bottom: 55px;
 		}
 	
 		.heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 50px;
 			color: #e7e7e7;
 			text-transform: uppercase;
 			position: relative;
-			margin-left: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+			
 		}
 	
 		.categories-heading {
@@ -210,7 +205,6 @@
 			background-image: url(img/footballer_192.png);
 			background-repeat: no-repeat;
 			background-position: top center;
-	
 			display: flex;
 			position: absolute;
 			left: 64px;
@@ -234,45 +228,48 @@
 		}	
 	
 		.athlets-number {
+      position: relative;
 			color: #000000;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
-	
-	    margin-left: 20px;
-	    margin-right: 10px;
+		 
+      vertical-align: super;
 	   
 		}
 	
 		.athlets-number::after {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      
 			content: "";
 			display: block;
 			width: 17px;
 			height: 5px;
 			background-color: #5e42b0;
 			border-radius: 25%;
-	
-			margin-left: auto;
-			margin-right: auto;
 			margin-top: 4px;
 		}
 	
 		.athlets-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 23px;
 			text-transform: uppercase;
 			color: #c1c1c1;
-	
 			margin-bottom: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    
 			}
 	
 		.athlets-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 15px;
 			color: #000000;
-	
 			margin-top: 10px;
-			margin-left: 20px;
-			margin-right: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+	
 		}
 	
 		.collaboration {
@@ -295,38 +292,43 @@
 			padding-bottom: 55px;
 		}
 	
+     .growth-heading {
+       margin-left: 20px;
+       margin-right: 20px;
+     }
+     
 		.growth-athlets {
+      position: relative;
 			color: #ffffff;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
-	
-	    margin-left: 20px;
-	    margin-right: 10px;
+	  
+      vertical-align: super;
 	   
 		}
 	
 		.growth-athlets::after {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      
 			content: "";
 			display: block;
 			width: 17px;
 			height: 5px;
 			background-color: #ffffff;
 			border-radius: 25%;
-	
-			margin-left: auto;
-			margin-right: auto;
 			margin-top: 4px;
 		}
 	
 		.growth-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 15px;
 			color: #dedbed;
-	
 			margin-top: 10px;
-			margin-left: 20px;
-			margin-right: 20px;
 			margin-bottom: 55px;
+      margin-left: 20px;
+      margin-right: 20px;
 		}
 	
 		.athlets-players {
@@ -352,7 +354,6 @@
 			background-image: url(img/basketballer_302.png);
 			background-repeat: no-repeat;
 			background-position: center;
-	
 			display: flex;
 			position: absolute;
 			z-index: 5;
@@ -365,7 +366,7 @@
 		}
 	
 		.play-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 50px;
 			color: #e7e7e7;
 			text-transform: uppercase;
@@ -388,12 +389,12 @@
 	
 		.players-number {
 			color: #000000;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
 	
 	    margin-left: 20px;
 	    margin-right: 10px;
-	   }
+     }
 	
 		.players-number::after {
 			content: "";
@@ -409,7 +410,7 @@
 		}
 		
 		.players-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 23px;
 			text-transform: uppercase;
 			color: #c1c1c1;
@@ -417,7 +418,7 @@
 		}
 	
 		.players-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 15px;
 			color: #000000;
 	
@@ -438,7 +439,7 @@
 	
 		.growth-players {
 			color: #ffffff;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
 	
 	    margin-left: 20px;
@@ -459,16 +460,15 @@
 		}
 	
 		.growth-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 23px;
 			text-transform: uppercase;
 			color: #c1c1c1;
-	
 			margin-bottom: 10px;
 		}
 	
 		.growth-text-players {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 15px;
 			color: #dedbed;
 	
@@ -498,7 +498,7 @@
 	
 		.active-number {
 			color: #ffffff;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
 		}
 	
@@ -521,7 +521,7 @@
 		}
 	
 		.active-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 28px;
 			text-transform: uppercase;
 			color: #e7e7e7;
@@ -530,7 +530,7 @@
 		}
 	
 		.active-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 15px;
 			color: #000000;
 	
@@ -589,7 +589,7 @@
 			background-size: 75px 75px;
 			background-position: center center;
 			border-radius: 25%;
-			background: linear-gradient(to top right left bottom, #52389e, #13008c);
+			background: linear-gradient(to top bottom, #52389e, #13008c);
 			margin: auto;
 			}
 	
@@ -602,7 +602,7 @@
 	  }
 	
 	  .footer-text {
-	  	font-family: OpenSana Bold,Arial,sans-serif;
+	  	font-family: "OpenSans Bold", Arial, sans-serif;
 	  	font-size: 30px;
 	  	text-transform: uppercase;
 	  	color: #ffffff;
@@ -612,7 +612,7 @@
 	  }
 	
 	  .footer-logo {
-	  	font-family: OpenSans Regular,Arial,sans-serif;
+	  	font-family: "OpenSans Regular", Arial, sans-serif;
 	  	font-size: 14px;
 	  	color: #8278a7;
 	  	position: relative;
@@ -691,7 +691,7 @@
 			width: 600px;
 			margin: 0 auto;
 	
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 64px;
 			text-transform: uppercase;
 		}
@@ -706,10 +706,9 @@
 		}
 	
 		.name-slogan {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 64px;
 			text-transform: uppercase;
-	
 			display: flex;
 			margin-left: 100px;
 			margin-bottom: 310px;
@@ -767,13 +766,13 @@
 			justify-content: center;
 		
 			
-			font-family: OpenSans Light,Arial,sans-serif;
+			font-family: "OpenSans Light", Arial, sans-serif;
 			font-size: 14px;
 			text-transform: uppercase;
 		}
 	
 		.store {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 14px;
 			text-transform: uppercase;
 		}
@@ -802,7 +801,7 @@
 		}
 	
 		.heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 80px;
 			text-transform: uppercase;
 			color: #e7e7e7;
@@ -819,14 +818,19 @@
 		}
 	
 		.athlets-number {
-			font-family: OpenSans Bold,Arial,sans-serif;
+      position: relative;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 18px;
 			color: #000000;
-	
 			margin-left: 290px;
+      vertical-align: super;
 		}
 	
 		.athlets-number::after {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      
 			content: "";
 			display: block;
 			width: 18px;
@@ -840,7 +844,7 @@
 			}
 	
 		.athlets-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 30px;
 			text-transform: uppercase;
 			color: #c1c1c1;
@@ -848,7 +852,7 @@
 		}
 	
 		.athlets-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 16px;
 			color: #000000;
 		
@@ -874,14 +878,19 @@
 		}
 	
 		.growth-athlets {
-			font-family: OpenSans Bold,Arial,sans-serif;
+      position: relative;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 18px;
 			color: #8765dd;
-			
-			margin-left: 290px; 
+			margin-left: 290px;
+      vertical-align: super;
 		}
 	
 		.growth-athlets::after {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      
 			content: "";
 			display: block;
 			width: 18px;
@@ -895,7 +904,7 @@
 			}
 	
 		.growth-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 16px;
 			color: #efefef;
 			margin-bottom: 35px;
@@ -931,7 +940,7 @@
 		}
 	
 		.play-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 80px;
 			text-transform: uppercase;
 			color: #e7e7e7;
@@ -946,7 +955,7 @@
 		}
 	
 		.players-number {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 18px;
 			color: #000000;
 	
@@ -968,7 +977,7 @@
 		}
 		
 		.players-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 30px;
 			text-transform: uppercase;
 			color: #c1c1c1;
@@ -978,7 +987,7 @@
 		}
 	
 		.players-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 16px;
 			color: #000000;
 			margin-bottom: 30px;
@@ -994,7 +1003,7 @@
 		}
 	
 		.growth-players {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 18px;
 			color: #8765dd;
 			margin-top: 60px;
@@ -1016,7 +1025,7 @@
 		}
 	
 		.growth-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 30px;
 			text-transform: uppercase;
 			color: #c1c1c1;
@@ -1026,7 +1035,7 @@
 		}
 	
 		.growth-text-players {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 18px;
 			color: #efefef;
 			margin-bottom: 30px;
@@ -1056,7 +1065,7 @@
 	
 		.active-number {
 			color: #ffffff;
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 24px;
 		}
 	
@@ -1074,7 +1083,7 @@
 		}
 	
 		.active-heading {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 80px;
 			text-transform: uppercase;
 	
@@ -1084,7 +1093,7 @@
 		}
 	
 		.active-text {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 24px;
 			color: #000000;
 			margin-left: 30px;
@@ -1155,7 +1164,7 @@
 		}
 	
 		.footer-text {
-			font-family: OpenSans Bold,Arial,sans-serif;
+			font-family: "OpenSans Bold", Arial, sans-serif;
 			font-size: 80px;
 			text-transform: uppercase;
 			color: #ffffff;
@@ -1167,7 +1176,7 @@
 		}
 	
 		.footer-logo {
-			font-family: OpenSans Regular,Arial,sans-serif;
+			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 35px;
 			text-transform: uppercase;
 			color: #a496ca;
@@ -1246,7 +1255,7 @@
  				z-index: 3;
 				margin: 0 auto;
 				
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 90px;
 				text-transform: uppercase;
 				color: #ffffff;
@@ -1315,14 +1324,14 @@
 				flex-direction: column;
 				justify-content: center;
 				
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 14px;
 				text-transform: uppercase;
 				color: #ffffff;
 			}
 	
 			.store {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 14px;
 				text-transform: uppercase;
 				color: #ffffff;
@@ -1352,13 +1361,15 @@
 			}
 	
 			.heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 80px;
 				text-transform: uppercase;
 				color: #e7e7e7;
 	
 				background-color: #ffffff;
 				margin-left: 60%;
+        
+        padding-right: 5px;
 			}
 	
 			.athlets {
@@ -1370,7 +1381,7 @@
 	
 			.athlets-number {
     position: relative;
-    font-family: OpenSans Bold,Arial,sans-serif;
+    font-family: "OpenSans Bold", Arial, sans-serif;
     font-size: 18px;
     color: #000000;
     vertical-align: super;
@@ -1390,7 +1401,7 @@
     }
 	
 			.athlets-heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 36px;
 				text-transform: uppercase;
 				color: #c1c1c1;
@@ -1398,7 +1409,7 @@
 			}
 	
 			.athlets-text {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 20px;
 				color: #000000;
 			
@@ -1426,7 +1437,7 @@
 	      
 			.growth-athlets {
         position: relative;
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 18px;
        	color: #000000;
         vertical-align: super;
@@ -1450,7 +1461,7 @@
 			}
 			
 			.growth-heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 36px;
 				text-transform: uppercase;
 				color: #c1c1c1;
@@ -1459,7 +1470,7 @@
 			}
 	
 			.growth-text {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 20px;
 				color: #ffffff;
 			
@@ -1494,7 +1505,7 @@
 			}
 	
 			.play-heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 80px;
 				text-transform: uppercase;
 				color: #e7e7e7;
@@ -1511,7 +1522,7 @@
 			}
 	
 			.players-number {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 18px;
 				color: #000000;
 	
@@ -1533,7 +1544,7 @@
 			}
 			
 			.players-heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 36px;
 				text-transform: uppercase;
 				color: #c1c1c1;
@@ -1543,7 +1554,7 @@
 			}
 	
 			.players-text {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 20px;
 				color: #000000;
 				display: flex;
@@ -1563,7 +1574,7 @@
 			}
 	
 			.growth-players {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 18px;
 				color: #c1c1c1;
 				
@@ -1586,7 +1597,7 @@
 			}
 	
 			.growth-text-players {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 20px;
 				color: #ffffff;
 			
@@ -1638,7 +1649,7 @@
 	
 			.active-number {
 				color: #ffffff;
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 25px;
 			}
 	
@@ -1670,14 +1681,14 @@
 			}
 	
 			.active-heading {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 80px;
 				text-transform: uppercase;
 				color: #e7e7e7;
 			}
 	
 			.active-text {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 24px;
 			
 				margin-top: 115px;
@@ -1748,7 +1759,7 @@
 			}
 	
 			.footer-text {
-				font-family: OpenSans Bold,Arial,sans-serif;
+				font-family: "OpenSans Bold", Arial, sans-serif;
 				font-size: 80px;
 				text-transform: uppercase;
 				color: #ffffff;
@@ -1759,7 +1770,7 @@
 			}
 	
 			.footer-logo {
-				font-family: OpenSans Regular,Arial,sans-serif;
+				font-family: "OpenSans Regular", Arial, sans-serif;
 				font-size: 30px;
 				text-transform: uppercase;
 				color: #a496ca;
@@ -1782,8 +1793,28 @@
 	
 	
 		
-			
 	
+
+	
+
+.athlets {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.players-head {
+  max-width: 618px;
+}
+
+.players-heading {
+  display: block;
+  max-width: 560px;
+}
+
+.text {
+   max-width: 776px;
+}
+
 	
 			
 	
@@ -1795,12 +1826,6 @@
 	 
 	 
 	
-	
-	
-
-
-
-
 	
 	
 
