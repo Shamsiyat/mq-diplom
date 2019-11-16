@@ -158,6 +158,7 @@
 			flex-wrap: wrap;
 			flex-direction: column;
 			justify-content: center;
+      align-items: center;
 			font-family: "OpenSans Regular", Arial, sans-serif;
 			font-size: 8px;
 			text-transform: uppercase;
@@ -173,13 +174,8 @@
 	
 		.main-content {
 			width: 100%;
-			margin-left: 20px;
-			margin-right: 20px;
-      
-      paddind-left: 5px;
-      padding-right: 5px;
-      
-			padding-top: 25px;
+		
+ 			padding-top: 25px;
 			padding-bottom: 55px;
 		}
 	
@@ -645,7 +641,7 @@
 			position: relative;
 			z-index: 1;
 			width: 100%;
-	
+     	
 			padding-top: 35px;
 			padding-bottom: 85px;
 		}
@@ -721,14 +717,16 @@
 		.store-content {
 			display: flex;
 			flex-wrap: nowrap;
-			max-width: 657px;
-			margin: auto;
+			width: 655px;
+      
 			justify-content: center;
 		}
 	
 		.link-store {
 			display: flex;
-			width: 310px;
+      width: 310px;
+      
+			
 			position: relative;
 			z-index: 3;
 			
@@ -1789,7 +1787,7 @@
 		  	margin: auto;
 		  	margin-top: 260px;
 		  }
-		}
+		
 	
 	
 		
@@ -1798,7 +1796,7 @@
 	
 
 .athlets {
-  padding-left: 15px;
+ 
   padding-right: 5px;
 }
 
@@ -1814,7 +1812,7 @@
 .text {
    max-width: 776px;
 }
-
+}
 	
 			
 	
